@@ -237,115 +237,210 @@
       "id": 2,
       "trait": "conscientiousness",
       "question": "When starting a new learning project, I typically...",
-      "options": ["Make a detailed study plan", "Have a rough learning schedule", "Go with the flow", "Prefer not to plan"]
+      "options": [
+        { "text": "Make a detailed study plan", "value": 3 },
+        { "text": "Have a rough learning schedule", "value": 2 },
+        { "text": "Go with the flow", "value": 1 },
+        { "text": "Prefer not to plan", "value": 0 }
+      ]
     },
     {
       "id": 3,
       "trait": "extraversion",
       "question": "When learning something new, I prefer to...",
-      "options": ["Study with others", "Mix individual and group study", "Study mostly alone", "Always study alone"]
+      "options": [
+        { "text": "Study with others", "value": 3 },
+        { "text": "Mix individual and group study", "value": 2 },
+        { "text": "Study mostly alone", "value": 1 },
+        { "text": "Always study alone", "value": 0 }
+      ]
     },
     {
       "id": 4,
       "trait": "agreeableness",
       "question": "When others suggest ways to improve my learning, I...",
-      "options": ["Welcome all feedback", "Consider their suggestions", "Prefer my own way", "Dislike suggestions"]
+      "options": [
+        { "text": "Welcome all feedback", "value": 3 },
+        { "text": "Consider their suggestions", "value": 2 },
+        { "text": "Prefer my own way", "value": 1 },
+        { "text": "Dislike suggestions", "value": 0 }
+      ]
     },
     {
       "id": 5,
       "trait": "neuroticism",
       "question": "When facing a challenging concept, I usually...",
-      "options": ["Stay calm and persistent", "Feel some anxiety but continue", "Get quite worried", "Feel very stressed"]
+      "options": [
+        { "text": "Stay calm and persistent", "value": 3 },
+        { "text": "Feel some anxiety but continue", "value": 2 },
+        { "text": "Get quite worried", "value": 1 },
+        { "text": "Feel very stressed", "value": 0 }
+      ]
     },
     {
       "id": 6,
       "trait": "learningStyle",
       "question": "I think I would learn coding best by...",
-      "options": ["Practicing examples", "Following step-by-step guides", "Reading documentation", "Watching tutorials"]
+      "options": [
+        { "text": "Practicing examples", "value": 3 },
+        { "text": "Following step-by-step guides", "value": 2 },
+        { "text": "Reading documentation", "value": 1 },
+        { "text": "Watching tutorials", "value": 0 }
+      ]
     },
     {
       "id": 7,
       "trait": "problemSolving",
       "question": "When encountering a problem I don't understand, I first...",
-      "options": ["Break it into smaller parts", "Look for similar examples", "Ask for help", "Take a break"]
+      "options": [
+        { "text": "Break it into smaller parts", "value": 3 },
+        { "text": "Look for similar examples", "value": 2 },
+        { "text": "Ask for help", "value": 1 },
+        { "text": "Take a break", "value": 0 }
+      ]
     },
     {
       "id": 8,
       "trait": "persistence",
       "question": "If I don't understand something after several attempts, I...",
-      "options": ["Try different approaches", "Take a break and return", "Seek help from others", "Consider giving up"]
+      "options": [
+        { "text": "Try different approaches", "value": 3 },
+        { "text": "Take a break and return", "value": 2 },
+        { "text": "Seek help from others", "value": 1 },
+        { "text": "Consider giving up", "value": 0 }
+      ]
     },
     {
       "id": 9,
       "trait": "attentionToDetail",
       "question": "When learning new concepts, I...",
-      "options": ["Take detailed notes", "Focus on main points", "Skim through quickly", "Prefer brief overviews"]
+      "options": [
+        { "text": "Take detailed notes", "value": 3 },
+        { "text": "Focus on main points", "value": 2 },
+        { "text": "Skim through quickly", "value": 1 },
+        { "text": "Prefer brief overviews", "value": 0 }
+      ]
     },
     {
       "id": 10,
       "trait": "creativity",
       "question": "When solving problems, I prefer to...",
-      "options": ["Find unique solutions", "Combine different approaches", "Follow standard methods", "Use given solutions"]
+      "options": [
+        { "text": "Find unique solutions", "value": 3 },
+        { "text": "Combine different approaches", "value": 2 },
+        { "text": "Follow standard methods", "value": 1 },
+        { "text": "Use given solutions", "value": 0 }
+      ]
     },
     {
       "id": 11,
       "trait": "timeManagement",
       "question": "When learning new skills, I...",
-      "options": ["Set specific study times", "Have flexible schedules", "Study when motivated", "Don't plan study time"]
+      "options": [
+        { "text": "Set specific study times", "value": 3 },
+        { "text": "Have flexible schedules", "value": 2 },
+        { "text": "Study when motivated", "value": 1 },
+        { "text": "Don't plan study time", "value": 0 }
+      ]
     },
     {
       "id": 12,
       "trait": "adaptability",
       "question": "When learning methods change, I...",
-      "options": ["Embrace the change", "Gradually adjust", "Prefer consistency", "Resist changes"]
+      "options": [
+        { "text": "Embrace the change", "value": 3 },
+        { "text": "Gradually adjust", "value": 2 },
+        { "text": "Prefer consistency", "value": 1 },
+        { "text": "Resist changes", "value": 0 }
+      ]
     },
     {
       "id": 13,
       "trait": "teamOrientation",
       "question": "In study groups, I typically...",
-      "options": ["Help organize the group", "Participate actively", "Follow the group's lead", "Prefer studying alone"]
+      "options": [
+        { "text": "Help organize the group", "value": 3 },
+        { "text": "Participate actively", "value": 2 },
+        { "text": "Follow the group's lead", "value": 1 },
+        { "text": "Prefer studying alone", "value": 0 }
+      ]
     },
     {
       "id": 14,
       "trait": "selfEfficacy",
       "question": "When starting to learn programming, I believe...",
-      "options": ["I can master it with effort", "I can learn the basics", "It might be too hard", "I might struggle"]
+      "options": [
+        { "text": "I can master it with effort", "value": 3 },
+        { "text": "I can learn the basics", "value": 2 },
+        { "text": "It might be too hard", "value": 1 },
+        { "text": "I might struggle", "value": 0 }
+      ]
     },
     {
       "id": 15,
       "trait": "growthMindset",
       "question": "I believe my ability to learn programming...",
-      "options": ["Can grow with practice", "Can improve somewhat", "Is mostly fixed", "Is limited"]
+      "options": [
+        { "text": "Can grow with practice", "value": 3 },
+        { "text": "Can improve somewhat", "value": 2 },
+        { "text": "Is mostly fixed", "value": 1 },
+        { "text": "Is limited", "value": 0 }
+      ]
     },
     {
       "id": 16,
       "trait": "feedbackOrientation",
       "question": "When receiving feedback on my learning progress, I...",
-      "options": ["Appreciate all input", "Consider it helpful", "Feel uncertain", "Prefer no feedback"]
+      "options": [
+        { "text": "Appreciate all input", "value": 3 },
+        { "text": "Consider it helpful", "value": 2 },
+        { "text": "Feel uncertain", "value": 1 },
+        { "text": "Prefer no feedback", "value": 0 }
+      ]
     },
     {
       "id": 17,
       "trait": "goalOrientation",
       "question": "When it comes to learning programming, I...",
-      "options": ["Set specific goals", "Have general aims", "Take it as it comes", "Haven't set goals"]
+      "options": [
+        { "text": "Set specific goals", "value": 3 },
+        { "text": "Have general aims", "value": 2 },
+        { "text": "Take it as it comes", "value": 1 },
+        { "text": "Haven't set goals", "value": 0 }
+      ]
     },
     {
       "id": 18,
       "trait": "stressManagement",
       "question": "When facing programming challenges, I...",
-      "options": ["Stay focused and calm", "Feel some pressure", "Get anxious", "Feel overwhelmed"]
+      "options": [
+        { "text": "Stay focused and calm", "value": 3 },
+        { "text": "Feel some pressure", "value": 2 },
+        { "text": "Get anxious", "value": 1 },
+        { "text": "Feel overwhelmed", "value": 0 }
+      ]
     },
     {
       "id": 19,
       "trait": "motivationSource",
       "question": "I want to learn programming because...",
-      "options": ["Love technology", "Career opportunities", "Others suggested it", "Feel pressured to"]
+      "options": [
+        { "text": "Love technology", "value": 3 },
+        { "text": "Career opportunities", "value": 2 },
+        { "text": "Others suggested it", "value": 1 },
+        { "text": "Feel pressured to", "value": 0 }
+      ]
     },
     {
       "id": 20,
       "trait": "learningCommitment",
       "question": "Regarding learning to code, I am willing to...",
-      "options": ["Practice daily", "Study regularly", "Learn occasionally", "Study when needed"]
+      "options": [
+        { "text": "Practice daily", "value": 3 },
+        { "text": "Study regularly", "value": 2 },
+        { "text": "Learn occasionally", "value": 1 },
+        { "text": "Study when needed", "value": 0 }
+      ]
     }
   ],
   "Product Design": [
@@ -364,115 +459,210 @@
       "id": 2,
       "trait": "conscientiousness",
       "question": "When starting to learn design, I would...",
-      "options": ["Create a learning plan", "Set general goals", "Go with inspiration", "Start without planning"]
+      "options": [
+        { "text": "Create a learning plan", "value": 3 },
+        { "text": "Set general goals", "value": 2 },
+        { "text": "Go with inspiration", "value": 1 },
+        { "text": "Start without planning", "value": 0 }
+      ]
     },
     {
       "id": 3,
       "trait": "extraversion",
       "question": "When discussing design ideas, I...",
-      "options": ["Love sharing thoughts", "Participate when comfortable", "Prefer listening", "Avoid discussions"]
+      "options": [
+        { "text": "Love sharing thoughts", "value": 3 },
+        { "text": "Participate when comfortable", "value": 2 },
+        { "text": "Prefer listening", "value": 1 },
+        { "text": "Avoid discussions", "value": 0 }
+      ]
     },
     {
       "id": 4,
       "trait": "agreeableness",
       "question": "When receiving design feedback, I would...",
-      "options": ["Welcome all comments", "Consider suggestions", "Be somewhat defensive", "Prefer no feedback"]
+      "options": [
+        { "text": "Welcome all comments", "value": 3 },
+        { "text": "Consider suggestions", "value": 2 },
+        { "text": "Be somewhat defensive", "value": 1 },
+        { "text": "Prefer no feedback", "value": 0 }
+      ]
     },
     {
       "id": 5,
       "trait": "neuroticism",
       "question": "When my design ideas don't work out, I...",
-      "options": ["Stay positive and retry", "Feel disappointed but continue", "Get discouraged", "Feel very frustrated"]
+      "options": [
+        { "text": "Stay positive and retry", "value": 3 },
+        { "text": "Feel disappointed but continue", "value": 2 },
+        { "text": "Get discouraged", "value": 1 },
+        { "text": "Feel very frustrated", "value": 0 }
+      ]
     },
     {
       "id": 6,
       "trait": "learningStyle",
       "question": "I think I would learn design best by...",
-      "options": ["Hands-on practice", "Following tutorials", "Studying examples", "Reading theory"]
+      "options": [
+        { "text": "Hands-on practice", "value": 3 },
+        { "text": "Following tutorials", "value": 2 },
+        { "text": "Studying examples", "value": 1 },
+        { "text": "Reading theory", "value": 0 }
+      ]
     },
     {
       "id": 7,
       "trait": "problemSolving",
       "question": "When facing a design challenge, I would...",
-      "options": ["Analyze it step by step", "Look for inspiration", "Ask for guidance", "Wait for ideas"]
+      "options": [
+        { "text": "Analyze it step by step", "value": 3 },
+        { "text": "Look for inspiration", "value": 2 },
+        { "text": "Ask for guidance", "value": 1 },
+        { "text": "Wait for ideas", "value": 0 }
+      ]
     },
     {
       "id": 8,
       "trait": "persistence",
       "question": "If a design concept is difficult to grasp, I...",
-      "options": ["Keep trying new ways", "Take breaks and return", "Seek help quickly", "Might give up"]
+      "options": [
+        { "text": "Keep trying new ways", "value": 3 },
+        { "text": "Take breaks and return", "value": 2 },
+        { "text": "Seek help quickly", "value": 1 },
+        { "text": "Might give up", "value": 0 }
+      ]
     },
     {
       "id": 9,
       "trait": "attentionToDetail",
       "question": "When learning about design principles, I...",
-      "options": ["Study every detail", "Focus on key points", "Get the general idea", "Prefer simple overview"]
+      "options": [
+        { "text": "Study every detail", "value": 3 },
+        { "text": "Focus on key points", "value": 2 },
+        { "text": "Get the general idea", "value": 1 },
+        { "text": "Prefer simple overview", "value": 0 }
+      ]
     },
     {
       "id": 10,
       "trait": "creativity",
       "question": "When thinking about design solutions, I prefer to...",
-      "options": ["Create original ideas", "Combine existing concepts", "Follow trends", "Use proven solutions"]
+      "options": [
+        { "text": "Create original ideas", "value": 3 },
+        { "text": "Combine existing concepts", "value": 2 },
+        { "text": "Follow trends", "value": 1 },
+        { "text": "Use proven solutions", "value": 0 }
+      ]
     },
     {
       "id": 11,
       "trait": "timeManagement",
       "question": "When working on design projects, I would...",
-      "options": ["Set clear deadlines", "Keep flexible timing", "Work as inspired", "Avoid time limits"]
+      "options": [
+        { "text": "Set clear deadlines", "value": 3 },
+        { "text": "Keep flexible timing", "value": 2 },
+        { "text": "Work as inspired", "value": 1 },
+        { "text": "Avoid time limits", "value": 0 }
+      ]
     },
     {
       "id": 12,
       "trait": "adaptability",
       "question": "When design trends change, I...",
-      "options": ["Embrace new trends", "Gradually adapt", "Stay with what I know", "Resist changes"]
+      "options": [
+        { "text": "Embrace new trends", "value": 3 },
+        { "text": "Gradually adapt", "value": 2 },
+        { "text": "Stay with what I know", "value": 1 },
+        { "text": "Resist changes", "value": 0 }
+      ]
     },
     {
       "id": 13,
       "trait": "teamOrientation",
       "question": "In design collaborations, I would...",
-      "options": ["Love to contribute", "Participate when asked", "Follow others' lead", "Prefer solo work"]
+      "options": [
+        { "text": "Love to contribute", "value": 3 },
+        { "text": "Participate when asked", "value": 2 },
+        { "text": "Follow others' lead", "value": 1 },
+        { "text": "Prefer solo work", "value": 0 }
+      ]
     },
     {
       "id": 14,
       "trait": "selfEfficacy",
       "question": "About learning design, I believe...",
-      "options": ["I can excel with effort", "I can learn well", "It might be challenging", "It could be too hard"]
+      "options": [
+        { "text": "I can excel with effort", "value": 3 },
+        { "text": "I can learn well", "value": 2 },
+        { "text": "It might be challenging", "value": 1 },
+        { "text": "It could be too hard", "value": 0 }
+      ]
     },
     {
       "id": 15,
       "trait": "growthMindset",
       "question": "I believe my design skills...",
-      "options": ["Can always improve", "Can develop over time", "Are somewhat fixed", "Are limited"]
+      "options": [
+        { "text": "Can always improve", "value": 3 },
+        { "text": "Can develop over time", "value": 2 },
+        { "text": "Are somewhat fixed", "value": 1 },
+        { "text": "Are limited", "value": 0 }
+      ]
     },
     {
       "id": 16,
       "trait": "feedbackOrientation",
       "question": "Design critiques would make me...",
-      "options": ["Excited to improve", "Willing to learn", "Somewhat nervous", "Very uncomfortable"]
+      "options": [
+        { "text": "Excited to improve", "value": 3 },
+        { "text": "Willing to learn", "value": 2 },
+        { "text": "Somewhat nervous", "value": 1 },
+        { "text": "Very uncomfortable", "value": 0 }
+      ]
     },
     {
       "id": 17,
       "trait": "goalOrientation",
       "question": "In learning design, I plan to...",
-      "options": ["Set clear milestones", "Have general goals", "See how it goes", "Not set specific goals"]
+      "options": [
+        { "text": "Set clear milestones", "value": 3 },
+        { "text": "Have general goals", "value": 2 },
+        { "text": "See how it goes", "value": 1 },
+        { "text": "Not set specific goals", "value": 0 }
+      ]
     },
     {
       "id": 18,
       "trait": "stressManagement",
       "question": "Under design deadlines, I would likely...",
-      "options": ["Stay calm and focused", "Feel some pressure", "Get quite stressed", "Become overwhelmed"]
+      "options": [
+        { "text": "Stay calm and focused", "value": 3 },
+        { "text": "Feel some pressure", "value": 2 },
+        { "text": "Get quite stressed", "value": 1 },
+        { "text": "Become overwhelmed", "value": 0 }
+      ]
     },
     {
       "id": 19,
       "trait": "motivationSource",
       "question": "I'm interested in design because...",
-      "options": ["Love creating things", "See career potential", "Others recommended it", "Feel pressured to"]
+      "options": [
+        { "text": "Love creating things", "value": 3 },
+        { "text": "See career potential", "value": 2 },
+        { "text": "Others recommended it", "value": 1 },
+        { "text": "Feel pressured to", "value": 0 }
+      ]
     },
     {
       "id": 20,
       "trait": "learningCommitment",
       "question": "To improve my design skills, I would...",
-      "options": ["Practice every day", "Study regularly", "Practice sometimes", "Study when needed"]
+      "options": [
+        { "text": "Practice every day", "value": 3 },
+        { "text": "Study regularly", "value": 2 },
+        { "text": "Practice sometimes", "value": 1 },
+        { "text": "Study when needed", "value": 0 }
+      ]
     }
   ]
 }
