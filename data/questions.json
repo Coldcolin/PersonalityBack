@@ -1,0 +1,478 @@
+{
+  "Frontend": [
+    {
+      "id": 1,
+      "trait": "openness",
+      "question": "When encountering new web technologies, I...",
+      "options": [
+        { "text": "Eagerly explore them", "value": 3 },
+        { "text": "Try them with interest", "value": 2 },
+        { "text": "Wait for others to try first", "value": 1 },
+        { "text": "Stick to what I know", "value": 0 }
+      ]
+    },
+    {
+      "id": 2,
+      "trait": "cognitiveFlexibility",
+      "question": "When my usual approach doesn't work, I...",
+      "options": [
+        { "text": "Get stuck", "value": 0 },
+        { "text": "Quickly try new methods", "value": 3 },
+        { "text": "Consider alternatives", "value": 2 },
+        { "text": "Stick to what I know", "value": 1 }
+      ]
+    },
+    {
+      "id": 3,
+      "trait": "informationProcessing",
+      "question": "When learning new concepts, I prefer to...",
+      "options": [
+        { "text": "Follow instructions only", "value": 0 },
+        { "text": "Understand the full picture", "value": 3 },
+        { "text": "Focus on key points", "value": 2 },
+        { "text": "Learn basic steps", "value": 1 }
+      ]
+    },
+    {
+      "id": 4,
+      "trait": "analyticalThinking",
+      "question": "When solving complex problems, I...",
+      "options": [
+        { "text": "Break them down systematically", "value": 3 },
+        { "text": "Look for patterns", "value": 2 },
+        { "text": "Try common solutions", "value": 1 },
+        { "text": "Seek immediate help", "value": 0 }
+      ]
+    },
+    {
+      "id": 5,
+      "trait": "technicalCuriosity",
+      "question": "When I see new technical features, I...",
+      "options": [
+        { "text": "Investigate how they work", "value": 3 },
+        { "text": "Try them out", "value": 2 },
+        { "text": "Use if necessary", "value": 1 },
+        { "text": "Avoid them", "value": 0 }
+      ]
+    },
+    {
+      "id": 6,
+      "trait": "learningStyle",
+      "question": "I learn best when...",
+      "options": [
+        { "text": "Experimenting hands-on", "value": 3 },
+        { "text": "Following tutorials", "value": 2 },
+        { "text": "Reading documentation", "value": 1 },
+        { "text": "Watching videos", "value": 0 }
+      ]
+    },
+    {
+      "id": 7,
+      "trait": "problemSolving",
+      "question": "When debugging issues, I first...",
+      "options": [
+        {"text": "Analyze systematically", "value": 3},
+        {"text": "Test different approaches", "value": 2},
+        {"text": "Search for solutions", "value": 1},
+        {"text": "Ask for help", "value": 0}
+      ]
+    },
+    {
+      "id": 8,
+      "trait": "persistence",
+      "question": "When facing a difficult challenge, I...",
+      "options": [
+        {"text": "Keep trying different ways", "value": 3},
+        {"text": "Take breaks but return", "value": 2},
+        {"text": "Switch to easier tasks", "value": 1},
+        {"text": "Give up quickly", "value": 0}
+      ]
+    },
+    {
+      "id": 9,
+      "trait": "attentionToDetail",
+      "question": "When reviewing code or design, I...",
+      "options": [
+        {"text": "Check every detail", "value": 3},
+        {"text": "Review main components", "value": 2},
+        {"text": "Look for obvious issues", "value": 1},
+        {"text": "Skim through quickly", "value": 0}
+      ]
+    },
+    {
+      "id": 10,
+      "trait": "creativity",
+      "question": "When designing solutions, I prefer to...",
+      "options": [
+        {"text": "Create innovative approaches", "value": 3},
+        {"text": "Combine existing ideas", "value": 2},
+        {"text": "Follow standards", "value": 1},
+        {"text": "Copy existing solutions", "value": 0}
+      ]
+    },
+    {
+      "id": 11,
+      "trait": "conflictResolution",
+      "question": "When disagreements arise in projects, I...",
+      "options": [
+        {"text": "Find common ground", "value": 3},
+        {"text": "Discuss openly", "value": 2},
+        {"text": "Avoid conflict", "value": 1},
+        {"text": "Insist on my way", "value": 0}
+      ]
+    },
+    {
+      "id": 12,
+      "trait": "leadershipStyle",
+      "question": "In team projects, I tend to...",
+      "options": [
+        {"text": "Guide and support others", "value": 3},
+        {"text": "Share responsibilities", "value": 2},
+        {"text": "Follow team leads", "value": 1},
+        {"text": "Work independently", "value": 0}
+      ]
+    },
+    {
+      "id": 13,
+      "trait": "remoteCollaboration",
+      "question": "When working remotely, I...",
+      "options": [
+        {"text": "Communicate proactively", "value": 3},
+        {"text": "Respond when needed", "value": 2},
+        {"text": "Minimize interaction", "value": 1},
+        {"text": "Avoid online meetings", "value": 0}
+      ]
+    },
+    {
+      "id": 14,
+      "trait": "selfEfficacy",
+      "question": "When facing new challenges, I believe...",
+      "options": [
+        {"text": "I can master them", "value": 3},
+        {"text": "I can learn enough", "value": 2},
+        {"text": "I might struggle", "value": 1},
+        {"text": "I'll probably fail", "value": 0}
+      ]
+    },
+    {
+      "id": 15,
+      "trait": "growthMindset",
+      "question": "I believe my abilities...",
+      "options": [
+        {"text": "Can always improve", "value": 3},
+        {"text": "Grow with practice", "value": 2},
+        {"text": "Are mostly fixed", "value": 1},
+        {"text": "Have limits", "value": 0}
+      ]
+    },
+    {
+      "id": 16,
+      "trait": "feedbackOrientation",
+      "question": "When receiving feedback, I...",
+      "options": [
+        {"text": "Actively seek and use it", "value": 3},
+        {"text": "Consider it carefully", "value": 2},
+        {"text": "Sometimes apply it", "value": 1},
+        {"text": "Prefer to avoid it", "value": 0}
+      ]
+    },
+    {
+      "id": 17,
+      "trait": "goalOrientation",
+      "question": "When learning new skills, I...",
+      "options": [
+        {"text": "Set specific milestones", "value": 3},
+        {"text": "Have general goals", "value": 2},
+        {"text": "Go with the flow", "value": 1},
+        {"text": "Avoid planning", "value": 0}
+      ]
+    },
+    {
+      "id": 18,
+      "trait": "stressManagement",
+      "question": "Under pressure, I...",
+      "options": [
+        {"text": "Maintain focus and calm", "value": 3},
+        {"text": "Stay mostly steady", "value": 2},
+        {"text": "Get anxious", "value": 1},
+        {"text": "Become overwhelmed", "value": 0}
+      ]
+    },
+    {
+      "id": 19,
+      "trait": "pastLearning",
+      "question": "From past learning experiences, I...",
+      "options": [
+        {"text": "Apply lessons effectively", "value": 3},
+        {"text": "Remember some lessons", "value": 2},
+        {"text": "Rarely use past lessons", "value": 1},
+        {"text": "Don't reflect on them", "value": 0}
+      ]
+    },
+    {
+      "id": 20,
+      "trait": "learningCommitment",
+      "question": "Regarding continuous learning, I...",
+      "options": [
+        {"text": "Make it a priority", "value": 3},
+        {"text": "Learn regularly", "value": 2},
+        {"text": "Learn when needed", "value": 1},
+        {"text": "Avoid new learning", "value": 0}
+      ]
+    }
+  ],
+  "Backend": [
+    {
+      "id": 1,
+      "trait": "openness",
+      "question": "When thinking about learning to code for the first time, I...",
+      "options": [
+        { "text": "Feel excited to start", "value": 3 },
+        { "text": "Am willing to try", "value": 2 },
+        { "text": "Feel a bit nervous", "value": 1 },
+        { "text": "Feel overwhelmed", "value": 0 }
+      ]
+    },
+    {
+      "id": 2,
+      "trait": "conscientiousness",
+      "question": "When starting a new learning project, I typically...",
+      "options": ["Make a detailed study plan", "Have a rough learning schedule", "Go with the flow", "Prefer not to plan"]
+    },
+    {
+      "id": 3,
+      "trait": "extraversion",
+      "question": "When learning something new, I prefer to...",
+      "options": ["Study with others", "Mix individual and group study", "Study mostly alone", "Always study alone"]
+    },
+    {
+      "id": 4,
+      "trait": "agreeableness",
+      "question": "When others suggest ways to improve my learning, I...",
+      "options": ["Welcome all feedback", "Consider their suggestions", "Prefer my own way", "Dislike suggestions"]
+    },
+    {
+      "id": 5,
+      "trait": "neuroticism",
+      "question": "When facing a challenging concept, I usually...",
+      "options": ["Stay calm and persistent", "Feel some anxiety but continue", "Get quite worried", "Feel very stressed"]
+    },
+    {
+      "id": 6,
+      "trait": "learningStyle",
+      "question": "I think I would learn coding best by...",
+      "options": ["Practicing examples", "Following step-by-step guides", "Reading documentation", "Watching tutorials"]
+    },
+    {
+      "id": 7,
+      "trait": "problemSolving",
+      "question": "When encountering a problem I don't understand, I first...",
+      "options": ["Break it into smaller parts", "Look for similar examples", "Ask for help", "Take a break"]
+    },
+    {
+      "id": 8,
+      "trait": "persistence",
+      "question": "If I don't understand something after several attempts, I...",
+      "options": ["Try different approaches", "Take a break and return", "Seek help from others", "Consider giving up"]
+    },
+    {
+      "id": 9,
+      "trait": "attentionToDetail",
+      "question": "When learning new concepts, I...",
+      "options": ["Take detailed notes", "Focus on main points", "Skim through quickly", "Prefer brief overviews"]
+    },
+    {
+      "id": 10,
+      "trait": "creativity",
+      "question": "When solving problems, I prefer to...",
+      "options": ["Find unique solutions", "Combine different approaches", "Follow standard methods", "Use given solutions"]
+    },
+    {
+      "id": 11,
+      "trait": "timeManagement",
+      "question": "When learning new skills, I...",
+      "options": ["Set specific study times", "Have flexible schedules", "Study when motivated", "Don't plan study time"]
+    },
+    {
+      "id": 12,
+      "trait": "adaptability",
+      "question": "When learning methods change, I...",
+      "options": ["Embrace the change", "Gradually adjust", "Prefer consistency", "Resist changes"]
+    },
+    {
+      "id": 13,
+      "trait": "teamOrientation",
+      "question": "In study groups, I typically...",
+      "options": ["Help organize the group", "Participate actively", "Follow the group's lead", "Prefer studying alone"]
+    },
+    {
+      "id": 14,
+      "trait": "selfEfficacy",
+      "question": "When starting to learn programming, I believe...",
+      "options": ["I can master it with effort", "I can learn the basics", "It might be too hard", "I might struggle"]
+    },
+    {
+      "id": 15,
+      "trait": "growthMindset",
+      "question": "I believe my ability to learn programming...",
+      "options": ["Can grow with practice", "Can improve somewhat", "Is mostly fixed", "Is limited"]
+    },
+    {
+      "id": 16,
+      "trait": "feedbackOrientation",
+      "question": "When receiving feedback on my learning progress, I...",
+      "options": ["Appreciate all input", "Consider it helpful", "Feel uncertain", "Prefer no feedback"]
+    },
+    {
+      "id": 17,
+      "trait": "goalOrientation",
+      "question": "When it comes to learning programming, I...",
+      "options": ["Set specific goals", "Have general aims", "Take it as it comes", "Haven't set goals"]
+    },
+    {
+      "id": 18,
+      "trait": "stressManagement",
+      "question": "When facing programming challenges, I...",
+      "options": ["Stay focused and calm", "Feel some pressure", "Get anxious", "Feel overwhelmed"]
+    },
+    {
+      "id": 19,
+      "trait": "motivationSource",
+      "question": "I want to learn programming because...",
+      "options": ["Love technology", "Career opportunities", "Others suggested it", "Feel pressured to"]
+    },
+    {
+      "id": 20,
+      "trait": "learningCommitment",
+      "question": "Regarding learning to code, I am willing to...",
+      "options": ["Practice daily", "Study regularly", "Learn occasionally", "Study when needed"]
+    }
+  ],
+  "Product Design": [
+    {
+      "id": 1,
+      "trait": "openness",
+      "question": "When thinking about design concepts, I...",
+      "options": [
+        { "text": "Love exploring new ideas", "value": 3 },
+        { "text": "Am open to suggestions", "value": 2 },
+        { "text": "Prefer familiar concepts", "value": 1 },
+        { "text": "Stick to basics", "value": 0 }
+      ]
+    },
+    {
+      "id": 2,
+      "trait": "conscientiousness",
+      "question": "When starting to learn design, I would...",
+      "options": ["Create a learning plan", "Set general goals", "Go with inspiration", "Start without planning"]
+    },
+    {
+      "id": 3,
+      "trait": "extraversion",
+      "question": "When discussing design ideas, I...",
+      "options": ["Love sharing thoughts", "Participate when comfortable", "Prefer listening", "Avoid discussions"]
+    },
+    {
+      "id": 4,
+      "trait": "agreeableness",
+      "question": "When receiving design feedback, I would...",
+      "options": ["Welcome all comments", "Consider suggestions", "Be somewhat defensive", "Prefer no feedback"]
+    },
+    {
+      "id": 5,
+      "trait": "neuroticism",
+      "question": "When my design ideas don't work out, I...",
+      "options": ["Stay positive and retry", "Feel disappointed but continue", "Get discouraged", "Feel very frustrated"]
+    },
+    {
+      "id": 6,
+      "trait": "learningStyle",
+      "question": "I think I would learn design best by...",
+      "options": ["Hands-on practice", "Following tutorials", "Studying examples", "Reading theory"]
+    },
+    {
+      "id": 7,
+      "trait": "problemSolving",
+      "question": "When facing a design challenge, I would...",
+      "options": ["Analyze it step by step", "Look for inspiration", "Ask for guidance", "Wait for ideas"]
+    },
+    {
+      "id": 8,
+      "trait": "persistence",
+      "question": "If a design concept is difficult to grasp, I...",
+      "options": ["Keep trying new ways", "Take breaks and return", "Seek help quickly", "Might give up"]
+    },
+    {
+      "id": 9,
+      "trait": "attentionToDetail",
+      "question": "When learning about design principles, I...",
+      "options": ["Study every detail", "Focus on key points", "Get the general idea", "Prefer simple overview"]
+    },
+    {
+      "id": 10,
+      "trait": "creativity",
+      "question": "When thinking about design solutions, I prefer to...",
+      "options": ["Create original ideas", "Combine existing concepts", "Follow trends", "Use proven solutions"]
+    },
+    {
+      "id": 11,
+      "trait": "timeManagement",
+      "question": "When working on design projects, I would...",
+      "options": ["Set clear deadlines", "Keep flexible timing", "Work as inspired", "Avoid time limits"]
+    },
+    {
+      "id": 12,
+      "trait": "adaptability",
+      "question": "When design trends change, I...",
+      "options": ["Embrace new trends", "Gradually adapt", "Stay with what I know", "Resist changes"]
+    },
+    {
+      "id": 13,
+      "trait": "teamOrientation",
+      "question": "In design collaborations, I would...",
+      "options": ["Love to contribute", "Participate when asked", "Follow others' lead", "Prefer solo work"]
+    },
+    {
+      "id": 14,
+      "trait": "selfEfficacy",
+      "question": "About learning design, I believe...",
+      "options": ["I can excel with effort", "I can learn well", "It might be challenging", "It could be too hard"]
+    },
+    {
+      "id": 15,
+      "trait": "growthMindset",
+      "question": "I believe my design skills...",
+      "options": ["Can always improve", "Can develop over time", "Are somewhat fixed", "Are limited"]
+    },
+    {
+      "id": 16,
+      "trait": "feedbackOrientation",
+      "question": "Design critiques would make me...",
+      "options": ["Excited to improve", "Willing to learn", "Somewhat nervous", "Very uncomfortable"]
+    },
+    {
+      "id": 17,
+      "trait": "goalOrientation",
+      "question": "In learning design, I plan to...",
+      "options": ["Set clear milestones", "Have general goals", "See how it goes", "Not set specific goals"]
+    },
+    {
+      "id": 18,
+      "trait": "stressManagement",
+      "question": "Under design deadlines, I would likely...",
+      "options": ["Stay calm and focused", "Feel some pressure", "Get quite stressed", "Become overwhelmed"]
+    },
+    {
+      "id": 19,
+      "trait": "motivationSource",
+      "question": "I'm interested in design because...",
+      "options": ["Love creating things", "See career potential", "Others recommended it", "Feel pressured to"]
+    },
+    {
+      "id": 20,
+      "trait": "learningCommitment",
+      "question": "To improve my design skills, I would...",
+      "options": ["Practice every day", "Study regularly", "Practice sometimes", "Study when needed"]
+    }
+  ]
+}
